@@ -3,6 +3,9 @@
 
 Working directory: /home/lecture1
 
+
+![Image](cd1.png)
+
 This output is swell!
 
 no error
