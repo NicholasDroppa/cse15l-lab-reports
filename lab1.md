@@ -1,23 +1,29 @@
 ## cd
-### no argument
+### no argument:
 ![Image](cd1.png)
-### directory
+---
+### directory:
 ![Image](cd2.png)
-### file
+---
+### file:
 ![Image](cd3.png)
 ---
 ## ls
-### no argument
+### no argument:
 ![Image](ls1.png)
-### directory
+---
+### directory:
 ![Image](ls2.png)
-### file
+---
+### file:
 ![Image](ls3.png)
 ---
 ## cat
-### no argument
+### no argument:
 ![Image](cat1.png)
-### directory
+---
+### directory:
 ![Image](cat2.png)
-### file
+---
+### file:
 ![Image](cat3.png)
