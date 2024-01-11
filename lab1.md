@@ -1,47 +1,47 @@
 ## cd
-### no argument:
+## no argument:
 ![Image](cd1.png)
 
 Working directory: /home
 ---
-### directory:
+## directory:
 ![Image](cd2.png)
 
 Working directory: /home
 ---
-### file:
+## file:
 ![Image](cd3.png)
 
 Working directory: /home/lecture1
 ---
 ## ls
-### no argument:
+## no argument:
 ![Image](ls1.png)
 
 Working directory: /home
 ---
-### directory:
+## directory:
 ![Image](ls2.png)
 
 Working directory: /home
 ---
-### file:
+## file:
 ![Image](ls3.png)
 
 Working directory: /home/lecture1
 ---
 ## cat
-### no argument:
+## no argument:
 ![Image](cat1.png)
 
 Working directory: /home/lecture1
 ---
-### directory:
+## directory:
 ![Image](cat2.png)
 
 Working directory: /home
 ---
-### file:
+## file:
 ![Image](cat3.png)
 
 Working directory: /home/lecture1
