@@ -1,5 +1,4 @@
-## cd
-## no argument:
+
 ![Image](cd1.png)
 
 Working directory: /home
