@@ -1,14 +1,14 @@
 # cd
-### no argument:
+### no arguments:
 
 Working directory: /home/lecture1
 
 
 ![Image](cd1.png)
 
-This output is swell!
+Running the cd command with no arguments sets the home directory as the current working directory.
 
-no error
+This command executed with no errors.
 
 ---
 ### directory:
@@ -18,9 +18,9 @@ no error
 
 Working directory: /home
 
-This output is swell!
+Running the cd command with a path to a directory as the argument sets that directory as the current working directory. The command was run from the home directory, which contains the lecture1 directory. As such, the cd command successfully set lecture1 as the current working directory.
 
-no error
+This command executed with no errors.
 
 ---
 ### file:
@@ -30,22 +30,22 @@ no error
 
 Working directory: /home/lecture1
 
-This output is swell!
+Running the cd command with a path to a file as the argument failed to change the current working directory, and instead printed out a line of text.
 
-no error
+This output is an error, as the cd command is only meant to take directories as arguments.
 
 ---
 # ls
-### no argument:
+### no arguments:
 
 
 ![Image](ls1.png)
 
 Working directory: /home
 
-This output is swell!
+Running the ls command with no arguments displays the contents of the current working directory. The command was run from the home directory, which only contains the lecture1 directory. As such, the ls command successfully displayed the contents of the current directory.
 
-no error
+This command executed with no errors.
 
 ---
 ### directory:
@@ -55,9 +55,9 @@ no error
 
 Working directory: /home
 
-This output is swell!
+Running the ls command with a path to a directory as the argument displays the contents of that directory. The command was run from the home directory, which contains the lecture1 directory. As such, the ls command successfully displayed the contents of the lecture1 directory.
 
-no error
+This command executed with no errors.
 
 ---
 ### file:
@@ -67,22 +67,22 @@ no error
 
 Working directory: /home/lecture1
 
-This output is swell!
+Running the ls command with a path to a file as the argument displays the name of that file. The command was run from the lecture1 directory, which contains the README file. As such, the ls command successfully displayed the name of the README file.
 
-no error
+This command executed with no errors.
 
 ---
 # cat
-### no argument:
+### no arguments:
 
 
 ![Image](cat1.png)
 
 Working directory: /home/lecture1
 
-This output is swell!
+Running the cat command with no arguments causes the command to operate on user input. The command will continue to echo the user's input until it is forced to close with Ctrl+C.
 
-no error
+This command executed with no errors.
 
 ---
 ### directory:
@@ -92,9 +92,9 @@ no error
 
 Working directory: /home
 
-This output is swell!
+Running the ls command with a path to a directory as the argument failed to print the contents of any file, and instead printed out a line of text.
 
-no error
+This output is an error, as the cat command is only meant to take files as arguments.
 
 ---
 ### file:
@@ -104,6 +104,6 @@ no error
 
 Working directory: /home/lecture1
 
-This output is swell!
+Running the cat command with a path to a file as the argument displays the contents of that file. The command was run from the lecture1 directory, which contains the README file. As such, the cat command successfully displayed the contents of the README file.
 
-no error
+This command executed with no errors.
