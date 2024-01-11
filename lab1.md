@@ -1,9 +1,6 @@
 # cd
 ### no argument:
 
-
-![Image](cd1.png)
-
 Working directory: /home/lecture1
 
 This output is swell!
