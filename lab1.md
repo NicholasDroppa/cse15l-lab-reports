@@ -80,7 +80,7 @@ This command executed with no errors.
 
 Working directory: /home/lecture1
 
-Running the cat command with no arguments causes the command to operate on user input. The command will continue to echo the user's input until it is forced to close with Ctrl+C.
+Running the cat command with no arguments causes the command to operate on user input. The command will continue to echo the user's input until it is forced to terminate via Ctrl+C.
 
 This command executed with no errors.
 
