@@ -1,14 +1,14 @@
 ## cd
-### Argument: none
-### Argument: directory
-### Argument: file
+### no argument
+### directory
+### file
 ---
 ## ls
-### Argument: none
-### Argument: directory
-### Argument: file
+### no argument
+### directory
+### file
 ---
 ## cat
-### Argument: none
-### Argument: directory
-### Argument: file
+### no argument
+### directory
+### file
