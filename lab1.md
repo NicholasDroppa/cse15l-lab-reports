@@ -1,10 +1,10 @@
 # cd
 ### no arguments:
 
-Working directory: `/home/lecture1`
-
 
 ![Image](cd1.png)
+
+Working directory: `/home/lecture1`
 
 Running the `cd` command with no arguments sets the `home` directory as the current working directory.
 
