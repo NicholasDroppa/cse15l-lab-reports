@@ -1,109 +1,40 @@
-# cd
-### no arguments:
+# Part 1
+### contents of `ChatServer.java`:
 
 
 ![Image](images/img1.png)
-
-Working directory: `/home/lecture1`
-
-Running the `cd` command with no arguments sets the `home` directory as the current working directory.
-
-This command executed with no errors.
+![Image](images/img2.png)
 
 ---
-### directory:
+### using `/add-message`:
 
 
-![Image](cd2.png)
+![Image](images/img3.png)
+![Image](images/img4.png)
 
-Working directory: `/home`
-
-Running the `cd` command with a path to a directory as the argument sets that directory as the current working directory. The command was run from the `home` directory, which contains the `lecture1` directory. As such, the `cd` command successfully set `lecture1` as the current working directory.
-
-This command executed with no errors.
+Whenever the page is accessed the `handleRequest()` method is called, and the URL is passed to this method as an argument. The behavior of this method depends on the contents of the URL's path. If the path contains the `/add-message` argument, then text is appended to the `str` field, which is initally empty. The text that is appended is determined by the contents of the `/add-message` argument. After the first usage of `/add-message`, the text `bcranston: Hello world!` is appended to `str`, followed by a newline character. The next usage of the `/add-message` argument appends the text `apaul: Hey there` to `str`, along with another newline. In either case, after the text has been appended, the method returns `str` so that it is displayed by the webpage.
 
 ---
-### file:
+# Part 2
+### private key:
 
 
-![Image](cd3.png)
-
-Working directory: `/home/lecture1`
-
-Running the `cd` command with a path to a file as the argument failed to change the current working directory, and instead printed out a line of text indicating that `README` is not a directory.
-
-This output is an error, as the `cd` command is only meant to take directories as arguments.
+![Image](images/img5.png)
 
 ---
-# ls
-### no arguments:
+### public key:
 
 
-![Image](ls1.png)
-
-Working directory: `/home`
-
-Running the `ls` command with no arguments displays the contents of the current working directory. The command was run from the `home` directory, which only contains the `lecture1` directory. As such, the `ls` command successfully displayed the contents of the current directory.
-
-This command executed with no errors.
+![Image](images/img6.png)
 
 ---
-### directory:
+### logging into `ieng6`:
 
 
-![Image](ls2.png)
-
-Working directory: `/home`
-
-Running the `ls` command with a path to a directory as the argument displays the contents of that directory. The command was run from the `home` directory, which contains the `lecture1` directory. As such, the `ls` command successfully displayed the contents of the `lecture1` directory.
-
-This command executed with no errors.
+![Image](images/img7.png)
 
 ---
-### file:
+# Part 3
+### something I learned:
 
-
-![Image](ls3.png)
-
-Working directory: `/home/lecture1`
-
-Running the `ls` command with a path to a file as the argument displays the name of that file. The command was run from the `lecture1` directory, which contains the `README` file. As such, the `ls` command successfully displayed the name of the `README` file.
-
-This command executed with no errors.
-
----
-# cat
-### no arguments:
-
-
-![Image](cat1.png)
-
-Working directory: `/home/lecture1`
-
-Running the `cat` command with no arguments causes the command to operate on user input. The command will continue to echo the user's input until it is forced to terminate via `Ctrl+C`.
-
-This command executed with no errors.
-
----
-### directory:
-
-
-![Image](cat2.png)
-
-Working directory: `/home`
-
-Running the `cat` command with a path to a directory as the argument failed to print the contents of any file, and instead printed out a line of text indicating that `lecture1` is a directory.
-
-This output is an error, as the `cat` command is only meant to take files as arguments.
-
----
-### file:
-
-
-![Image](cat3.png)
-
-Working directory: `/home/lecture1`
-
-Running the `cat` command with a path to a file as the argument displays the contents of that file. The command was run from the `lecture1` directory, which contains the `README` file. As such, the `cat` command successfully displayed the contents of the `README` file.
-
-This command executed with no errors.
+In this lab, I learned several things about remote terminal connections. The `scp` command is a useful way to copy files from one machine to another without relying on third-party services. Also, the ability to generate SSH keys so that I don't have to type my password every time I make a remote connection is an extremely helpful time-saver.
