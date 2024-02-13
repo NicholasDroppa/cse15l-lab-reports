@@ -1,13 +1,24 @@
 # Part 1
-### contents of `ChatServer.java`:
+### failure-inducing input:
 
+```
+	@Test 
+	public void testReverseInPlaceFailure()
+  {
+    int[] input1 = { 3, 5, 4, 7, 6 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 6, 7, 4, 5, 3 }, input1);
+	}
+```
 
-![Image](images/img1.png)
-![Image](images/img2.png)
+### successful input:
 
----
-### using `/add-message`:
-
-
-![Image](images/img3.png)
-![Image](images/img4.png)
+```
+	@Test 
+	public void testReverseInPlaceSuccess()
+  {
+    int[] input1 = { 3, 2, 1, 2, 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3, 2, 1, 2, 3 }, input1);
+	}
+```
