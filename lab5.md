@@ -57,7 +57,6 @@ static void reverseInPlace(int[] arr)
 }
 ```
 
-Explanation:
 To understand the problem with the original code, consider what happens on the first and final iteration of the `for` loop. In the first iteration, the first element of the array is replaced with the last element. In the final iteration, the final element in the array is replaced by the first element; but the first element was already replaced with the final element! That means the final element isn't actually changed at all, and this same issue applies to every element in the back half of the array. To fix this issue, the new code uses a temporary array to place the elements in the correct order, then copies the contents of that array over the original array.
 
 ---
