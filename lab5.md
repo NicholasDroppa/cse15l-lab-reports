@@ -93,7 +93,7 @@ plos/journal.pbio.0020042.txt
 
 By default, the `find` command will print out all results found. When searching large directories, this can flood the terminal with hundreds of lines of text. By using the `|` symbol, we can instead use that output as the input to another command. The `head` command is used to display a certain number of lines of its input; by default, it will display 10 lines.
 
-Source: https://stackoverflow.com/questions/54570574/how-to-display-exactly-10-lines-of-a-command-output
+Source: <https://stackoverflow.com/questions/54570574/how-to-display-exactly-10-lines-of-a-command-output>
 
 ---
 ### using `-type`:
@@ -123,7 +123,7 @@ government/Post_Rate_Comm
 
 The `-type` option can be used to search for specific results. Using `-find f` will search for files, whereas using `-find d` will search for directories.
 
-Source: https://tecadmin.net/linux-find-command-with-examples/
+Source: <https://tecadmin.net/linux-find-command-with-examples/>
 
 ---
 ### using `-size`:
@@ -156,7 +156,7 @@ plos/pmed.0020249.txt
 
 The `-size` option can be used to search for files with a specific size. The number following `-size` determines the size to search for. For example, `-size 10k` searches for files with a size of 10 kilobytes. Using the `+` or `-` prefix on the file size will give results that are larger or smaller than the specified size.
 
-Source: https://tecadmin.net/linux-find-command-with-examples/
+Source: <https://tecadmin.net/linux-find-command-with-examples/>
 
 ---
 ### using `-mtime`:
@@ -189,4 +189,4 @@ plos/journal.pbio.0020042.txt
 
 The `-mtime` option can be used to search for files based on their modification time. For example, `-mtime 4` searches for files that were modified 4 days ago. The `+` and `-` prefixes can be used in a similar manner as `-size` to find files that were modified more or less than the specified number of days ago.
 
-Source: https://tecadmin.net/linux-find-command-with-examples/
+Source: <https://tecadmin.net/linux-find-command-with-examples/>
